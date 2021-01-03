@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="80dp">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/image">
+
+    </ImageView>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="220dp"
+        android:layout_height="50dp">
+
+        <TextView
+            android:id="@+id/text1_view"
+            android:layout_width="100dp"
+            android:layout_height="30dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/text2_view"
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:text="Clouds">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="100dp"
+        android:layout_height="50dp">
+
+        <TextView
+            android:id="@+id/text_max"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:text="37">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/text_min"
+            android:layout_width="50dp"
+            android:layout_height="20dp"
+            android:text="17">
+
+        </TextView>
+
+    </LinearLayout>
+
+</LinearLayout>

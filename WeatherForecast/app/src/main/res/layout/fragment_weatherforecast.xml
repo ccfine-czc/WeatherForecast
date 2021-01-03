@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/title_view"
+        android:layout_width="match_parent"
+        android:background="@color/colorSkyBlue"
+        android:layout_height="200dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/date">
+
+        </TextView>
+
+        <TextView
+            android:layout_marginTop="90dp"
+            android:layout_marginLeft="50dp"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:id="@+id/max_temp">
+
+        </TextView>
+
+        <TextView
+            android:layout_marginTop="150dp"
+            android:layout_marginLeft="50dp"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:id="@+id/min_temp">
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="50dp"
+            android:id="@+id/weather_image">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="135dp"
+            android:id="@+id/weather_text">
+
+        </TextView>
+
+    </FrameLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="200dp"
+        android:id="@+id/recycle_view"
+        android:background="@color/colorShadow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</FrameLayout>
